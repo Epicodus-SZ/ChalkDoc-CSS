@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+}
+section {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+header {
+  background: tomato;
+  min-height: 150px;
+}
+answersSection {
+  flex: 2 ;
+  background: gold;
+  overflow: auto;
+}
+prompt {
+  background: lightgreen;
+  min-height: 200px;
+}
+
+.fill-height-or-more {
+  display: flex;
+  flex-direction: column;
+}
+.fill-height-or-more > div {
+  /* these are the flex items */
+  flex: 1;
+}
+
+.AnswerRow {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+}
+
+.answer {
+  width: 50%;
+}
+
+.A{
+  background-color: teal;
+}
+
+.B{
+  background-color: yellow;
+}
+
+.C{
+  background-color: purple;
+}
+
+.D{
+  background-color: orange;
+}
